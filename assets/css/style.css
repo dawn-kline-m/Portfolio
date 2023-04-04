@@ -10,13 +10,13 @@ body {
 header {
   padding: 60px;
   text-align: center;
-  background: #13293d;
+  background: #66b1be;
   color: #fff;
 }
 
 nav {
   display: flex;
-  background-color: #d8a47f;
+  background-color: #d4b49c;
 }
 
 nav ul {
@@ -37,7 +37,7 @@ main {
 
 aside {
   flex: 30%;
-  background-color: #b9c6ae;
+  background-color: #94cfcc;
   padding: 20px;
   flex-wrap: wrap;
 }
