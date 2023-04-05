@@ -10,7 +10,7 @@ body {
 header {
   padding: 60px;
   text-align: center;
-  background: #66b1be;
+  background: #536ec7;
   color: #fff;
 }
 
@@ -56,7 +56,7 @@ footer {
 }
 
 /* Image Placeholders */
-.sample-img {
+.work-img {
   background-color: #fff;
   width: 100%;
   padding: 20px;
