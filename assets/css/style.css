@@ -3,12 +3,12 @@
 }
 
 body {
-  font-family: Arial;
+  font-family: 'Times New Roman', Times, serif;
   margin: 0;
 }
 
 header {
-  padding: 60px;
+  padding: 20px;
   text-align: center;
   background: #536ec7;
   color: #fff;
@@ -28,7 +28,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-right: 10px;
+  margin-right: 7px;
 }
 
 main {
@@ -36,22 +36,22 @@ main {
 }
 
 aside {
-  flex: 30%;
+  flex: 20%;
   background-color: #94cfcc;
   padding: 20px;
   flex-wrap: wrap;
 }
 
 section {
-  flex: 70%;
+  flex: 80%;
   background-color: #fff;
   padding: 20px;
 }
 
 footer {
-  padding: 20px;
+  padding: 1px;
   text-align: center;
-  background: #13293d;
+  background: #536ec7;
   color: #fff;
 }
 
@@ -61,7 +61,7 @@ footer {
   width: 100%;
   padding: 20px;
   height: 200px;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -70,6 +70,14 @@ footer {
 .project-img {
   width: 100%;
   margin-right: 20px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  border: 10px solid black;
+  background-color: red;
 }
 
 /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
